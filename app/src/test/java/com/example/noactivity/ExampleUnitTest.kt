@@ -61,5 +61,10 @@ class ExampleUnitTest {
     fun test10() {
         assertEquals(true, checkPalindrome("madam"))
     }
+
+    @Test
+    fun test11() {
+        assertEquals(false, checkPalindrome(""))
+    }
 }
 
